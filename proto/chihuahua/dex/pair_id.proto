@@ -1,0 +1,9 @@
+syntax = "proto3";
+package chihuahua.dex;
+
+option go_package = "github.com/ChihuahuaChain/chihuahua/x/dex/types";
+
+message PairID {
+  string token0 = 1;
+  string token1 = 2;
+}

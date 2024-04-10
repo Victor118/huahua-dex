@@ -1,0 +1,9 @@
+syntax = "proto3";
+package chihuahua.dex;
+
+option go_package = "github.com/ChihuahuaChain/chihuahua/x/dex/types";
+
+message TradePairID {
+  string maker_denom = 2;
+  string taker_denom = 3;
+}
